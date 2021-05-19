@@ -6,3 +6,6 @@ commit: señala a un único "tree", marcandolo como el proyecto parecía en cier
         como una marca de tiempo, el autor de los cambios desde el ultimo "commit", un puntero hacia los previos "commit". Enlaza el estado físico de un 
         "tree" con una descripción de como se ha llegado ahí y por qué
 tag: es una forma de marcar un "commit" especifico de manera especial. Se usa para lanzamientos especiales
+
+En la imagen podemos ver que se ha creado un objeto "tree" para cada directorio, incluido el directorio raíz, y un objeto "blob" para cada fila. Entonces tenemos 
+un objeto "commit" que apunta hacia el root, de este modo podemos seguir la pista de como lucía nuestro proyecot cuando se le aplicó el "commit"
