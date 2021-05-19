@@ -1,0 +1,8 @@
+SHA:
+blob: se utiliza para almacemar archivos. Es independiente de su localización en el directorio "tree". Esta definido por su data y este objeto es 
+      totalmente indenpendiente de su localización en el directorio "tree"
+tree: es un directorio. Hace referencia a un puñado de otros "trees" y "blobs". Normalmente representa los contenidos de un directorio o subdirectorio
+commit: señala a un único "tree", marcandolo como el proyecto parecía en cierto punto. Contiene meta-información sobre ese punto en el tiempo, 
+        como una marca de tiempo, el autor de los cambios desde el ultimo "commit", un puntero hacia los previos "commit". Enlaza el estado físico de un 
+        "tree" con una descripción de como se ha llegado ahí y por qué
+tag: es una forma de marcar un "commit" especifico de manera especial. Se usa para lanzamientos especiales
