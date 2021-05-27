@@ -1,4 +1,4 @@
-SHA:
+SHA: algoritmo de encriptación hash que identifica individualmente cada objeto encontrado en el repositorio, dos objetos distintos con el mismo nombre no serán posibles de encontrar
 blob: se utiliza para almacemar archivos. Es independiente de su localización en el directorio "tree". Esta definido por su data y este objeto es 
       totalmente indenpendiente de su localización en el directorio "tree"
 tree: es un directorio. Hace referencia a un puñado de otros "trees" y "blobs". Normalmente representa los contenidos de un directorio o subdirectorio
